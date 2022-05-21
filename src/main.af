@@ -2,6 +2,6 @@
 import * from "io" under io;
 
 int main(){
-	io.print("Hello, World!\n");
+	io.print("Test\n");
 	return 0;
 };
