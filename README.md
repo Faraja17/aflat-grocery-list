@@ -2,7 +2,7 @@
 
 My son DeForestt wrote AFlat, a simple low-level programming language.  [Please read more about AFlat here.](https://github.com/DeForestt/aflat). As DeForestt adds new tutorials, I complete them and occasionally use them as guidance in building my own mini projects.  Learning AFlat has helped me to understand JavaScript and Python, so not only am I very proud of my son's accomplishment, it is very useful to me!
 
-I will document my latest AFlat project, a grocery list, here.
+I will document the progress of my latest AFlat project, a grocery list, here.  So far, I have created a class and verified that it is set up properly by creating two objects and printing out the information of each.
 
 ## Table of contents
 
@@ -43,7 +43,7 @@ I will document my latest AFlat project, a grocery list, here.
 - Live Site URL: [name of site](URL)
 
 ## My process
-
+I started out creating a grocery item class by using the tutorials student class as a model.  The one main change I had to make was the addition of a boolean field for whether or not the item is in the cart.  If true, a unicode check mark prints. if not, an x prints.
 
 
 ### Built with
