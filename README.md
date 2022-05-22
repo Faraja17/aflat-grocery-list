@@ -1,6 +1,6 @@
 # Grocery List Using AFlat Language
 
-My son DeForestt wrote AFlat, a simple low-level programming language.  [Please read more about AFlat here.](https://github.com/DeForestt/aflat). As DeForestt adds new tutorials, I complete them and occasionally use them as guidance in building my own mini projects.  Learning AFlat has helped me to understand JavaScript and Python, so not only am I very proud of my son's accomplishment, it is very useful to me!
+My son DeForestt wrote AFlat, a simple low-level programming language.  [Please read more about AFlat here](https://github.com/DeForestt/aflat). As DeForestt adds new tutorials, I complete them and occasionally use them as guidance in building my own mini projects.  Learning AFlat has helped me to understand JavaScript and Python, so not only am I very proud of my son's accomplishment, it is very useful to me!
 
 I will document the progress of my latest AFlat project, a grocery list, here.  So far, I have created a class and verified that it is set up properly by creating two objects and printing out the information of each.
 
