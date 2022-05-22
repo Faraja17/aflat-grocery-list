@@ -20,6 +20,7 @@ I will document the progress of my latest AFlat project, a grocery list, here.  
 
 ## Overview
 
+My goal is to create a program that can store grocery item objects, including the name of each item, its location in the store, its price, the quantity needed, and whether or not the item has been placed into the shopping cart.  I also want the program to calculate the total price of the grocery bill.
 
 
 
