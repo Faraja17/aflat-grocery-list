@@ -1,7 +1,44 @@
 .needs <std>
+
 import * from "io" under io;
 
+class Item {
+	adr name;
+	adr aisle;
+	int price;
+	int quantity;
+	bool cart;
+
+	Item init(adr name, adr aisle, int price, int quantity, bool cart){
+		my.name = name;
+		my.aisle = aisle;
+		my.price = price;
+		my.quantity = quantity;
+		my.cart = cart;
+	};
+
+	int printInfo(){
+		io.print("Grocery List Information:\n");
+		io.print("\tName: "); io.print(my.name); io.print("\n");
+		io.print("\tAisle: "); io.print(my.aisle); io.print("\n");
+		io.print("\tPrice: "); io.printInt(my.price); io.print("\n");
+		io.print("\tQuantity: "); io.printInt(my.quantity); io.print("\n");
+		io.print("\tCart: "); 
+			if my.cart {
+				 io.print("✓"); io.print("\n");
+	         }else{ 
+				 io.print("x"); io.print("\n");
+			 };
+	};
+};
+
 int main(){
-	io.print("Test\n");
+	Item i = Item("oatmeal", "bulk", 2, 1, false);
+	Item i2 = Item("pears", "produce", 2, 2, true);
+
+	i.printInfo();
+	io.print("\n");
+	i2.printInfo();
+
 	return 0;
 };
