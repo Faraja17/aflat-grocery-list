@@ -24,18 +24,54 @@ I will document the progress of my latest AFlat project, a grocery list, here.  
 
 
 ### Screenshots
-| <b>Mobile View</b>| 
-|:--:|
-| ![My Solution for Mobile]() |
 
-| <b>Desktop View</b>| 
-|:--:|
-| ![My Solution for Desktop]() |
+```
+.needs <std>
 
-| <b>More Screenshots</b> | 
-|:--:|
-| [![Link to Google Slides](link-to-slides.png)](https://docs.google.com/presentation/d/e/2PACX-1vROkxVyUGrL-H86BwdRjp2-pR0OU4mqIA1PmLdf0vh8ypV4msyidQBM9mZgJLeFc7AsDSrrOJjhP8Oe/pub?start=false&loop=false&delayms=3000&slide=id.g1270c083a6c_0_146) |
-| [Direct Link to Google Presentation](https://docs.google.com/presentation/d/e/2PACX-1vROkxVyUGrL-H86BwdRjp2-pR0OU4mqIA1PmLdf0vh8ypV4msyidQBM9mZgJLeFc7AsDSrrOJjhP8Oe/pub?start=false&loop=false&delayms=3000&slide=id.g1270c083a6c_0_146)|
+import * from "io" under io;
+
+class Item {
+	adr name;
+	adr aisle;
+	int price;
+	int quantity;
+	bool cart;
+
+	Item init(adr name, adr aisle, int price, int quantity, bool cart){
+		my.name = name;
+		my.aisle = aisle;
+		my.price = price;
+		my.quantity = quantity;
+		my.cart = cart;
+	};
+
+	int printInfo(){
+		io.print("Grocery List Information:\n");
+		io.print("\tName: "); io.print(my.name); io.print("\n");
+		io.print("\tAisle: "); io.print(my.aisle); io.print("\n");
+		io.print("\tPrice: "); io.printInt(my.price); io.print("\n");
+		io.print("\tQuantity: "); io.printInt(my.quantity); io.print("\n");
+		io.print("\tCart: "); 
+			if my.cart {
+				 io.print("✓"); io.print("\n");
+	         }else{ 
+				 io.print("x"); io.print("\n");
+			 };
+	};
+};
+
+int main(){
+	Item i = Item("oatmeal", "bulk", 2, 1, false);
+	Item i2 = Item("pears", "produce", 2, 2, true);
+
+	i.printInfo();
+	io.print("\n");
+	i2.printInfo();
+
+	return 0;
+};
+```
+
 
 
 ### Links
