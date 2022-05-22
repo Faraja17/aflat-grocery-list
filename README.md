@@ -80,7 +80,7 @@ int main(){
 - Live Site URL: [name of site](URL)
 
 ## My process
-I started out creating a grocery item class by using the tutorials student class as a model.  The one main change I had to make was the addition of a boolean field for whether or not the item is in the cart.  If true, a unicode check mark prints. if not, an x prints.  I have been reading the AFlat documentation (and texting DeForestt!) to learn how AFlat works.  
+I started out creating a grocery item class by using the tutorials' student class as a model.  The one main change I had to make was the addition of a boolean field for whether or not the item is in the cart.  If true, a unicode check mark prints. if not, an x prints.  I have been reading the AFlat documentation (and texting DeForestt!) to learn how AFlat works.  
 
 
 ### Built with
