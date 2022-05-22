@@ -85,8 +85,7 @@ I started out creating a grocery item class by using the tutorials' student clas
 
 ### Built with
 
-- Semantic HTML5 markup
-- CSS 3 properties
+- AFlat
 
 ### What I learned
 
